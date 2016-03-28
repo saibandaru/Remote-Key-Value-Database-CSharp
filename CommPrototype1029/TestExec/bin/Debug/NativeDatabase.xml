@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NoSQLDatabase>
+  <KEY_TYPE>int</KEY_TYPE>
+  <PAYLOAD_TYPE>string</PAYLOAD_TYPE>
+  <KEY key="1" name="Element_1 Native Edit" description="Element_1 Native Edit Description" timestamp="2015-10-05T21:40:27.7634039-04:00">
+    <Payload>
+      <value>Element_1 Native Data</value>
+    </Payload>
+    <child>2</child>
+    <child>3</child>
+    <child>4</child>
+  </KEY>
+  <KEY key="2" name="Element_2 Native" description="Element_2 Native Description" timestamp="2015-10-05T21:40:27.7790303-04:00">
+    <Payload>
+      <value>Element_2 Native Data</value>
+    </Payload>
+    <child>3</child>
+    <child>4</child>
+    <child>5</child>
+  </KEY>
+</NoSQLDatabase>

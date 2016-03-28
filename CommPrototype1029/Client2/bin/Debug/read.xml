@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OPERATIONS>
+<NUMBER>10</NUMBER> 
+  <REQUEST>
+    <COMMAND>QUERY</COMMAND>
+    <PARAMS>
+      <TYPE>KEY_S</TYPE>
+      <INFO1>-1587306074</INFO1>
+    </PARAMS>
+  </REQUEST>
+<REQUEST>  
+    <COMMAND>QUERY</COMMAND>
+    <PARAMS>
+      <TYPE>KEY_S</TYPE>
+      <INFO1>KEY124</INFO1>
+    </PARAMS>
+  </REQUEST>
+  <REQUEST>
+    <COMMAND>QUERY</COMMAND>
+    <PARAMS>
+      <TYPE>CHILD_S</TYPE>
+      <INFO1>-1587306074</INFO1>
+    </PARAMS>
+  </REQUEST>
+  <REQUEST>
+    <COMMAND>QUERY</COMMAND>
+    <PARAMS>
+      <TYPE>PATTERN_S</TYPE>
+      <INFO1>1000</INFO1>
+    </PARAMS>
+  </REQUEST>
+  <REQUEST>
+    <COMMAND>QUERY</COMMAND>
+    <PARAMS>
+      <TYPE>METADATA_S</TYPE>
+      <INFO1>Element_1</INFO1>
+    </PARAMS>
+  </REQUEST>  
+</OPERATIONS>

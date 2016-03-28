@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LATENCY>
+  <PREF>8039</PREF>
+  <PREF>7998</PREF>
+  <PREF>7724</PREF>
+  <PREF>7221</PREF>
+</LATENCY>

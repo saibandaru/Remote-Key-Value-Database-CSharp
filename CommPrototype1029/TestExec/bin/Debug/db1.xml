@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NoSQLDatabase>
+  <KEY_TYPE>int</KEY_TYPE>
+  <PAYLOAD_TYPE>string</PAYLOAD_TYPE>
+  <KEY key="100" name="Element_100 Native" description="Element_100 Native Description" timestamp="2015-10-05T13:28:29.7813601-04:00">
+    <Payload>
+      <value>Element_100 Native Data</value>
+    </Payload>
+    <child>1</child>
+    <child>2</child>
+    <child>3</child>
+  </KEY>
+</NoSQLDatabase>

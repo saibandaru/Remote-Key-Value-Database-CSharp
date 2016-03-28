@@ -1,0 +1,11 @@
+﻿<NavigationWindow x:Class="WpfApplication2.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Key/Value Database Client Interface" Height="450" Width="1100"
+    Source="Page1.xaml" WindowStyle="SingleBorderWindow">
+<!--
+    <Grid>
+        
+    </Grid>
+-->
+</NavigationWindow>

@@ -1,0 +1,80 @@
+﻿<Page x:Class="Project4Starter.Page5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Page5">
+    <DockPanel>
+        <DockPanel.Resources>
+            <Style x:Key="buttonStyle">
+                <Setter Property="Button.FontFamily" Value="Tahoma"/>
+                <Setter Property="Button.FontSize"   Value="14"/>
+                <Setter Property="Button.FontWeight" Value="Bold"/>
+                <Setter Property="Button.Background" Value="White"/>
+            </Style>
+            <Style x:Key="topButtonStyle">
+                <Setter Property="Button.FontFamily" Value="Tahoma"/>
+                <Setter Property="Button.FontSize"   Value="12"/>
+                <Setter Property="Button.FontWeight" Value="Bold"/>
+                <Setter Property="Button.Background" Value="#eeeeee"/>
+                <Setter Property="Button.Padding"    Value="10" />
+            </Style>
+        </DockPanel.Resources>
+        <!-- Top Menu -->
+        <StackPanel Background="#eeeeee" Height="75" DockPanel.Dock="Top">
+            <DockPanel>
+                <Button Style="{StaticResource topButtonStyle}" DockPanel.Dock="Right" Click="Button_Click" BorderThickness="1" BorderBrush="#FFFFEEEE">Help</Button>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontFamily="Tahoma" Foreground="DeepSkyBlue" FontSize="20" FontWeight="bold" Padding="10">Key/Value Database</TextBlock>
+                    <Label Name="PageLabel" VerticalAlignment="Center" Padding="30,5,30,5" Width="304" FontSize="14">Client</Label>
+                </StackPanel>
+            </DockPanel>
+            <Menu Background="DeepSkyBlue">
+                <MenuItem Header="Database Connection" Foreground="AliceBlue" Click="MenuItem_Click"  Width="200" Padding="50,5,50,5" HorizontalAlignment="Center" />
+                <MenuItem Header="Insert/Edit/Delete Value " Foreground="AliceBlue" Click="MenuItem_Click_1"  Width="200" Padding="50,5,50,5" HorizontalAlignment="Center"/>
+                <MenuItem Header="      Query Database" Foreground="AliceBlue" Padding="50,5,50,5" Width="200" Click="MenuItem_Click_2" HorizontalAlignment="Center"/>
+                <MenuItem Header="      Persist Database" Foreground="AliceBlue" Padding="50,5,50,5" Width="200" Click="MenuItem_Click_3" HorizontalAlignment="Center"  />
+                <MenuItem Header="      Performance" Foreground="AliceBlue" Padding="50,5,50,5" Width="200" Click="MenuItem_Click_4" Background="DimGray" HorizontalAlignment="Center"   />
+                <!--<MenuItem Header="Add1" Foreground="AliceBlue" Padding="50,5,50,5" Click="MenuItem_Click_4" />
+        <MenuItem Header="Add2" Foreground="AliceBlue" Padding="50,5,50,5" Click="MenuItem_Click_5" />-->
+            </Menu>
+        </StackPanel>
+        <!-- Bottom Status Bar -->
+        <StackPanel Background="DeepSkyBlue" Height="25" Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <Label x:Name="status_7" Content="Status: Save operation is successful" Foreground="AliceBlue"/>
+        </StackPanel>
+        <StackPanel Background="White" Height="300" Orientation="Horizontal"  >
+            <StackPanel Background="White" Height="300" Width="450" Orientation="Vertical">
+            <TextBlock Grid.Row="0" x:Name="textBox_Pref" FontFamily="Tahoma" FontSize="15" TextWrapping="Wrap" Text="The throughput and latency are given below"
+                         TextAlignment="Center" Padding="25" />
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <TextBlock Grid.Row="0" x:Name="textBox_lat" FontFamily="Tahoma" FontSize="15" TextWrapping="Wrap" Text="Average Latency:"
+                         TextAlignment="Center" Padding="10" Margin="140,0,10,0" />
+                    <TextBlock Grid.Row="0" x:Name="latency" FontFamily="Tahoma" FontSize="15" TextWrapping="Wrap" Text="Value"
+                         TextAlignment="Center" Padding="10" Margin="0,0,10,0" />
+                </StackPanel>
+                <StackPanel Grid.Row="2" Orientation="Horizontal">
+                    <TextBlock Grid.Row="0" x:Name="textBox_thru" FontFamily="Tahoma" FontSize="15" TextWrapping="Wrap" Text="Throughput       :"
+                         TextAlignment="Center" Padding="10" Margin="140,0,10,0" />
+                    <TextBlock Grid.Row="0" x:Name="thruput" FontFamily="Tahoma" FontSize="15" TextWrapping="Wrap" Text="Value"
+                         TextAlignment="Center" Padding="10" Margin="0,0,10,0" />
+                </StackPanel>
+                <Button Grid.Row="3" Name="send" Margin="20,20,0,0"  Content="Get Info" Width="75" Height="25" Click="latency_Click"/>
+
+
+
+            </StackPanel>
+            <Canvas Name="Canvas1"  Height="300" DockPanel.Dock="Right" Width="600">
+                <StackPanel Orientation="Vertical" Name="Request" Width="300"  Canvas.Top="0" Canvas.Left="0" Canvas.ZIndex="1">
+                    <TextBlock FontFamily="Tahoma" HorizontalAlignment="Center" FontSize="15" FontWeight="bold" Padding="10">Requested Field</TextBlock>
+                    <ListBox Grid.Row="1" Margin="10, 0, 10, 0" Name="reqList6" Height="250"  >
+                    </ListBox>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Name="Responce" Width="300"  Canvas.Top="0" Canvas.Left="310" Canvas.ZIndex="2">
+                    <TextBlock FontFamily="Tahoma" HorizontalAlignment="Center" FontSize="15" FontWeight="bold" Padding="10">Response Field</TextBlock>
+                    <ListBox Grid.Row="1" Margin="10, 0, 10, 0" Name="respList6" Height="250" >
+
+                    </ListBox>
+                </StackPanel>
+            </Canvas>
+        </StackPanel>
+    </DockPanel>
+</Page>

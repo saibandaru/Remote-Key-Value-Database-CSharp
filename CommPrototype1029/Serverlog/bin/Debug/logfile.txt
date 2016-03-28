@@ -1,0 +1,87 @@
+Time :12/9/2015 7:36:29 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 7:36:29 PM	Requester:http://localhost:8070/CommService	 Request/Response:No Keys found that match with text K122
+Time :12/9/2015 7:36:44 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 7:36:44 PM	Requester:http://localhost:8070/CommService	 Request/Response:No Keys found that match with text K122
+Time :12/9/2015 7:36:44 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 7:36:44 PM	Requester:http://localhost:8070/CommService	 Request/Response:No Keys found that match with text K122
+Time :12/9/2015 7:45:38 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 7:45:38 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 7:45:38 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 7:47:48 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 7:47:48 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K123 Not Found to get value
+Time :12/9/2015 7:48:56 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K125 Not Found to get value
+Time :12/9/2015 7:48:56 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 7:48:56 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K124 Not Found to get value
+Time :12/9/2015 7:48:56 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 7:48:56 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K123 Not Found to get value
+Time :12/9/2015 8:37:34 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:37:39 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 8:37:39 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key 123 Not Found to get value
+Time :12/9/2015 8:45:03 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:45:17 PM	Requester:http://localhost:8070/CommService	 Request/Response:QUERY
+Time :12/9/2015 8:45:17 PM	Requester:http://localhost:8070/CommService	 Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:48:49 PM
+Requester:http://localhost:8070/CommService
+ Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:49:07 PM
+Requester:http://localhost:8070/CommService
+ Request/Response:QUERY
+Time :12/9/2015 8:49:07 PM
+Requester:http://localhost:8070/CommService
+ Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:49:18 PM
+Requester:http://localhost:8070/CommService
+ Request/Response:QUERY
+Time :12/9/2015 8:49:18 PM
+Requester:http://localhost:8070/CommService
+ Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:50:32 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:QUERY
+Time :12/9/2015 8:50:32 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:50:38 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:QUERY
+Time :12/9/2015 8:50:38 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:53:29 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:QUERY
+Time :12/9/2015 8:53:29 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:53:37 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:QUERY
+Time :12/9/2015 8:53:37 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:Key K122 Not Found to get value
+Time :12/9/2015 8:53:42 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:QUERY
+Time :12/9/2015 8:53:42 PM
+
+Requester:http://localhost:8070/CommService
+
+Request/Response:Key K122 Not Found to get value

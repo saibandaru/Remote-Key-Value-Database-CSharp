@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NoSQLDatabase>
+  <KEY_TYPE>string</KEY_TYPE>
+  <PAYLOAD_TYPE>List&lt;string&gt;</PAYLOAD_TYPE>
+  <KEY key="-00000000" name="Element_001 List" description="Element_001 List Description" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload>
+      <value>Element_001 Data1</value>
+      <value>Element_001 Data2</value>
+      <value>Element_001 Data3</value>
+    </Payload>
+    <child>List Child_001</child>
+    <child>List Child_002</child>
+    <child>List Child_003</child>
+  </KEY>
+</NoSQLDatabase>

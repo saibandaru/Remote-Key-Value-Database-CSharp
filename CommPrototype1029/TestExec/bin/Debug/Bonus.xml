@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NoSQLDatabase>
+  <KEY_TYPE>string</KEY_TYPE>
+  <PAYLOAD_TYPE>string</PAYLOAD_TYPE>
+  <KEY key="Mobile" name="Mobile Devices" description="Connecting people" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload> 
+	<value>Samsung</value>     
+	<value>Apple</value>     
+	<value>Micromax</value>     
+    </Payload>
+  </KEY>
+  <KEY key="T.V" name="Television" description="Entertaining people" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload>
+	<value>Samsung</value>     
+	<value>Philips</value>     
+    </Payload>
+  </KEY>
+  <KEY key="Laptop" name="Computer" description="Educating People" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload>  
+	<value>Samsung</value>     
+	<value>Apple</value>         
+    </Payload>
+  </KEY>
+    <KEY key="Samsung" name="Samsung Pvt" description="Samsung: A competitor" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload>      
+    </Payload>
+    <child>Mobile</child>    
+    <child>T.V</child>
+	<child>Laptop</child>
+  </KEY>
+      <KEY key="Apple" name="Apple Inc." description="Apple:Game changer" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload>      
+    </Payload>
+	<child>Mobile</child>
+	<child>Laptop</child>
+  </KEY>
+  <KEY key="Micromax" name="Micromax Mobiles" description="Micromax: Nothing like anything" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload>      
+    </Payload>
+	<child>Mobile</child>
+  </KEY>
+  <KEY key="Philips" name="Royal Philips" description="Philips: Home appliances Lighting  " timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload>      
+    </Payload>
+	<child>T.V</child>
+  </KEY>  
+</NoSQLDatabase>

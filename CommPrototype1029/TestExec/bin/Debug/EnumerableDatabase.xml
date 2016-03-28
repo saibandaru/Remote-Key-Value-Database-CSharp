@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NoSQLDatabase>
+  <KEY_TYPE>string</KEY_TYPE>
+  <PAYLOAD_TYPE>List&lt;string&gt;</PAYLOAD_TYPE>
+  <KEY key="-1587306074" name="Element_1 List Replace" description="Element_1 List Description Replace" timestamp="2015-10-07T01:41:29.9313014-04:00">
+    <Payload>
+      <value>Element_1 Data1 Replace</value>
+      <value>Element_1 Data2 Replace</value>
+      <value>Element_1 Data3 Replace</value>
+    </Payload>
+    <child>List Child_1 Replace</child>
+    <child>List Child_2 Replace</child>
+    <child>List Child_3 Replace</child>
+  </KEY>
+  <KEY key="1141577281" name="Element_2 List" description="Element_2 List Description" timestamp="2015-10-07T01:41:29.6031607-04:00">
+    <Payload>
+      <value>Element_2 Data1</value>
+      <value>Element_2 Data2</value>
+    </Payload>
+    <child>List Child_1</child>
+    <child>List Child_2</child>
+    <child>List Child_3</child>
+  </KEY>
+  <KEY key="DBElement" name="DBElement" description="Define element for noSQL database" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+  </KEY>
+  <KEY key="DBEngine" name="DBEngine" description="Defines noSQL database" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+  </KEY>
+  <KEY key="DBExtension" name="DBExtension" description="Defines extensions for DBElement and DBEngine" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+    <child>DBEngine</child>
+  </KEY>
+  <KEY key="Display" name="Display" description="Defines display extensions for DBEngine and DBElement instances" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+    <child>DBEngine</child>
+    <child>DBExtension</child>
+  </KEY>
+  <KEY key="UtilityExtension" name="UtilityExtension" description="Defines different write to console  extensions" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+  </KEY>
+  <KEY key="DBEleEdit" name="DBEleEdit" description="This package helps to edit or modify the Key/VAlue database" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+    <child>DBEngine</child>
+    <child>PersistEngine</child>
+  </KEY>
+  <KEY key="PersistEngine" name="PersistEngine" description="This package takes care of store and retrieval of Key/VAlue database " timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+    <child>DBExtension</child>
+    <child>DBEngine</child>
+    <child>Display</child>
+  </KEY>
+  <KEY key="SchedulerPackage" name="SchedulerPackage" description="This package takes care of storing of Key/VAlue database time to time after an interval" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+    <child>DBExtension</child>
+    <child>DBEngine</child>
+    <child>PersistEngine</child>
+  </KEY>
+  <KEY key="QueryPackage" name="QueryPackage" description="This package enables us to retrieve information from inmemory Key/Value Database" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+    <child>DBExtension</child>
+    <child>DBEngine</child>
+    <child>DBFactory</child>
+  </KEY>
+  <KEY key="DemonstrationPackage" name="DemonstrationPackage" description="This helps us in demonstrating all the requirements of Project#2" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>UtilityExtension</child>
+    <child>DBElement</child>
+    <child>DBExtension</child>
+    <child>DBEngine</child>
+    <child>DBFactory</child>
+    <child>Display</child>
+    <child>PersistEngine</child>
+    <child>SchedulerPackage</child>
+  </KEY>
+  <KEY key="DBFactory" name="DBFactory" description="This package stores a List of Keys that are result of a Database query" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>DBElement</child>
+    <child>DBEngine</child>
+  </KEY>
+  <KEY key="TestExec" name="TestExec" description="The Logical Entry point of the Application" timestamp="2015-10-05T23:17:27.7039437-04:00">
+    <Payload />
+    <child>DBElement</child>
+    <child>DBEngine</child>
+    <child>DemonstrationPackage</child>
+    <child>UtilityExtension</child>
+  </KEY>
+</NoSQLDatabase>

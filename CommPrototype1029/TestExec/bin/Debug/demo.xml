@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NoSQLDatabase>
+  <KEY_TYPE>string</KEY_TYPE>
+  <PAYLOAD_TYPE>List&lt;string&gt;</PAYLOAD_TYPE>
+  <KEY key="KEY-1587306074" name="edited element" description="edited type" timestamp="2015-10-01T14:17:31.4421722-04:00">
+    <Payload>
+      <value>edit one</value>
+      <value>edit two</value>
+      <value>edit three</value>
+    </Payload>
+  </KEY>
+  <KEY key="KEY1141577281" name="newelem2" description="test new two type" timestamp="2015-10-01T14:17:31.3015216-04:00">
+    <Payload>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+    </Payload>
+  </KEY>
+</NoSQLDatabase>
